@@ -4,7 +4,6 @@ import React from "react";
 import {
   Button,
   Input,
-  InputGroupAddon,
   InputGroupText,
   InputGroup,
   Container,
@@ -267,11 +266,11 @@ function LandingPage() {
                     "input-lg" + (firstFocus ? " input-group-focus" : "")
                   }
                 >
-                  <InputGroupAddon addonType="prepend">
+                  <InputGroupText addonType="prepend">
                     <InputGroupText>
                       <i className="now-ui-icons users_circle-08"></i>
                     </InputGroupText>
-                  </InputGroupAddon>
+                  </InputGroupText>
                   <Input
                     placeholder="First Name..."
                     type="text"
@@ -284,11 +283,11 @@ function LandingPage() {
                     "input-lg" + (lastFocus ? " input-group-focus" : "")
                   }
                 >
-                  <InputGroupAddon addonType="prepend">
+                  <InputGroupText addonType="prepend">
                     <InputGroupText>
                       <i className="now-ui-icons ui-1_email-85"></i>
                     </InputGroupText>
-                  </InputGroupAddon>
+                  </InputGroupText>
                   <Input
                     placeholder="Email..."
                     type="text"

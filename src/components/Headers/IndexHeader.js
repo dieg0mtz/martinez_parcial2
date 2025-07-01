@@ -35,13 +35,13 @@ function IndexHeader() {
         <Container>
           <div className="content-center brand">
         
-            <h1 className="h1-seo">SIAC</h1>
-            <h3>Seguridad Informática Administrativa y Contable</h3>
+            <h1 className="h1-seo">EVALUACION PARCIAL 2</h1>
+            <h3>Martinez Ramirez Diego</h3>
           </div>
           <h6 className="category category-absolute">
-            SIAC Desarrollos{" "}
+           2025{" "}
             
-            . Calidad - Seguridad - Compromiso{" "}
+            . UNIVERSIDAD - TECNOLOGICA - DE DURANGO{" "}
           
             
           </h6>

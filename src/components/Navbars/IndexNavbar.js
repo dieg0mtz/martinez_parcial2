@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 // reactstrap components
 import {
   Collapse,
@@ -15,6 +16,7 @@ import {
   Container,
   UncontrolledTooltip,
 } from "reactstrap";
+
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -168,5 +170,6 @@ function IndexNavbar() {
     </>
   );
 }
+
 
 export default IndexNavbar;

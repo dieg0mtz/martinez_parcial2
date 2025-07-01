@@ -9,7 +9,6 @@ import {
   CardFooter,
   Form,
   Input,
-  InputGroupAddon,
   InputGroupText,
   InputGroup,
   Container,
@@ -64,11 +63,11 @@ function LoginPage() {
                         (firstFocus ? " input-group-focus" : "")
                       }
                     >
-                      <InputGroupAddon addonType="prepend">
+                   addonType="prepend">
                         <InputGroupText>
                           <i className="now-ui-icons users_circle-08"></i>
                         </InputGroupText>
-                      </InputGroupAddon>
+                    >
                       <Input
                         placeholder="First Name..."
                         type="text"
@@ -82,11 +81,11 @@ function LoginPage() {
                         (lastFocus ? " input-group-focus" : "")
                       }
                     >
-                      <InputGroupAddon addonType="prepend">
+                   addonType="prepend">
                         <InputGroupText>
                           <i className="now-ui-icons text_caps-small"></i>
                         </InputGroupText>
-                      </InputGroupAddon>
+                    >
                       <Input
                         placeholder="Last Name..."
                         type="text"
